@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cmake -H. -Bbuilds/Debug -DCMAKE_BUILD_TYPE=Debug
+cmake -H. -Bbuilds/Release -DCMAKE_BUILD_TYPE=Release

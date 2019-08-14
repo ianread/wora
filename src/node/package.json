@@ -1,0 +1,20 @@
+{
+  "name": "node_wora",
+  "version": "1.0.0",
+  "description": "Create a Node Binding for a C api",
+  "author": "Abhishek Pratapa",
+  "license": "ISC",
+  "private": true,
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.14.0",
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.7.1"
+  },
+  "devDependencies": {
+    "electron": "^5.0.8",
+    "electron-reload":"^1.4.1",
+    "electron-rebuild":"^1.8.5",
+    "electron-packager": "^14.0.3"
+  }
+}
